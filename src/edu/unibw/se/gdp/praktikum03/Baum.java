@@ -12,8 +12,8 @@ public class Baum {
         int hoehe = 5;
 
         System.out.println(maleBaum(hoehe, ax, ay, bx, by, s));
-        System.out.println(maleBaum(ax+300, ay, bx+300, by, s));      //Freiwillig b)
-        System.out.println(maleBaum(ax+650, ay, bx+650, by));         //Freiwillig c) & d)
+        System.out.println(maleBaum(ax + 300, ay, bx + 300, by, s));      //Freiwillig b)
+        System.out.println(maleBaum(ax + 650, ay, bx + 650, by));         //Freiwillig c) & d)
     }
 
     public static int maleBaum(int hoehe, double ax, double ay,

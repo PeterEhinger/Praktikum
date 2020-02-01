@@ -1,8 +1,7 @@
 package edu.unibw.se.gdp.praktikum04;
 
-import java.util.*;
-
-import static java.util.Collections.sort;
+import java.util.Arrays;
+import java.util.Collections;
 
 public class Felder {
     public static void main(String[] args) {

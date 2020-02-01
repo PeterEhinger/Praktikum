@@ -30,7 +30,7 @@ import java.util.ArrayList;
  * The x-axis is to the right and the y-axis is oriented upwards. The units are pixels.
  */
 public class SimpleGraphicPanel {
-    private static final int WINDOW_WIDTH = 600;
+    private static final int WINDOW_WIDTH = 1000;
     private static final int WINDOW_HEIGHT = 400;
     private static final Color WINDOW_BACKGROUND_COLOR = Color.WHITE;
 

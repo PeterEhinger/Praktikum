@@ -54,21 +54,6 @@ public class House {
 
 
             double s = (new Random()).nextDouble();
-            /*
-            double min = 40;
-            double max = 50;
-
-            double ax = min + (max - min) * (new Random()).nextDouble();
-            ax = (Math.sin(ax)+1*20) + i * 50;
-            double ay = min + (max - min) * (new Random()).nextDouble();
-            ay = (Math.sin(ay)+1*20) + ax;
-            double bx = min + (max - min) * (new Random()).nextDouble();
-            bx = (Math.sin(bx)+1*20) + i * 50;
-            double by = min + (max - min) * (new Random()).nextDouble();
-            by = (Math.sin(by)+1*20) + ay;
-            double s = (new Random()).nextDouble();
-            */
-
             maleHausBunt(ax, ay, bx, by, s);
         }
         //maleHausBunt(ax, ay, bx, by, s);

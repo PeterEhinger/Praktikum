@@ -22,9 +22,9 @@ class Quader {
         dy = Geometrie.berechneDy(ax, ay, bx);
         ex = Geometrie.berechneEx(dx, dy, cx, cy, s);
         ey = Geometrie.berechneEy(dx, dy, cx, cy, s);
-        abstand = Math.hypot((bx-ax), (by-ay));
+        abstand = Math.hypot((bx - ax), (by - ay));
 
-        color = ((abstand <= 2.0 && i >=2) | (hoehe == 0 && i==1)) ? (SimpleGraphicPanel.getRandomColor()) : (Color.black);
+        color = ((abstand <= 2.0 && i >= 2) | (hoehe == 0 && i == 1)) ? (SimpleGraphicPanel.getRandomColor()) : (Color.black);
 
         SimpleGraphicPanel.drawQuadrilateral(color, true, ax, ay, bx, by, cx, cy, dx, dy);
     }
