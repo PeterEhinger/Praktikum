@@ -4,6 +4,7 @@ import java.lang.reflect.Array;
 
 public class Zahlen {
     public static void main(String[] args) {
+        //System.out.println(quersumme(234));
         //System.out.println(isHarshadZahl(12));
         //printHarshadZahl(100);
         //System.out.println(teilersumme(12));
@@ -24,8 +25,10 @@ public class Zahlen {
     }
 
     public static void printHarshadZahl(long n) {
+        String tmp = "";
         for (int i = 1; i <= n; i++)
-            if (isHarshadZahl(i)) System.out.println(i);
+            if (isHarshadZahl(i)) tmp = tmp + (i + ", ");
+        System.out.println(tmp.substring(0, tmp.length() - 2));
     }
 
     public static long teilersumme(long n) {
@@ -36,8 +39,9 @@ public class Zahlen {
     }
 
     public static void printVollkommeneZahlen(long n) {
-        for (int i = 1; i <= n; i++) {
-            if (teilersumme(i) == i) System.out.println(i);
-        }
+        String tmp = "";
+        for (int i = 1; i <= n; i++)
+            if (teilersumme(i) == i) tmp = tmp + (i + ", ");
+        System.out.println(tmp.substring(0, tmp.length() - 2));
     }
 }

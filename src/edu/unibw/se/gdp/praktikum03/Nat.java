@@ -3,9 +3,9 @@ package edu.unibw.se.gdp.praktikum03;
 public class Nat {
     public static void main(String[] args) {
 
-        int zahl = 2323433;
+        int zahl = 123233;
         int ziffer = 3;
-        System.out.println(occurs(ziffer, zahl));
+        //System.out.println(occurs(ziffer, zahl));
 
         // ---------------------------------------------------------------- //
         int x = 18;
