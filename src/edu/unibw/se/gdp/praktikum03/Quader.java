@@ -6,13 +6,7 @@ import edu.unibw.se.gdp.praktikum02.Geometrie;
 import java.awt.*;
 
 class Quader {
-    double cx;
-    double cy;
-    double dx;
-    double dy;
-    double ex;
-    double ey;
-    double abstand;
+    double cx, cy, dx, dy, ex, ey, abstand;
     Color color;
 
     public Quader(int hoehe, double ax, double ay, double bx, double by, double s, int i) {

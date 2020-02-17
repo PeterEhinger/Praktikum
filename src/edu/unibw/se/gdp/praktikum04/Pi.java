@@ -2,13 +2,17 @@ package edu.unibw.se.gdp.praktikum04;
 
 public class Pi {
     public static void main(String[] args) {
-        System.out.println(wallissischesProdukt(1));
+        System.out.println(wallissischesProdukt(0.01));
     }
 
     public static double wallissischesProdukt(double abbruch) {
-        for (int i = 1; abbruch != (abbruch*((4*Math.pow(i,2))/((4*Math.pow(i,2))-1))); i++)
-            abbruch = abbruch*((4*Math.pow(i,2))/((4*Math.pow(i,2))-1));
+        double tmp = 100;
+        double tmp2 = 1;
+        for (int i = 1; (abbruch+1) <= tmp; i++) {
+            tmp = ((4 * Math.pow(i, 2)) / ((4 * Math.pow(i, 2)) - 1));
+            tmp2 = tmp2 * tmp;
+        }
 
-        return abbruch*2;
+        return tmp2*2;
     }
 }
