@@ -11,6 +11,12 @@ public class KomplexeZahlOperationen {
         print(div(k1,k2));
         System.out.println(abs(k2));
         System.out.println(phi(k2));
+
+        //-------------------------------//
+
+        print(new KomplexeZahl(0.5, 45.0, false), true);
+        print(new KomplexeZahl(1.0, 45.0, false), false);
+        print(new KomplexeZahl(0.5, -0.5), false);
     }
 
     public static void print(KomplexeZahl c) {
@@ -18,11 +24,23 @@ public class KomplexeZahlOperationen {
     }
 
     public static void print(KomplexeZahl c, boolean imBogenmass) {
-        if (imBogenmass == false) {
+        if (c.betrag == 0 && c.phi == 0) {
+            c.betrag = abs(c);
+            c.phi = phi(c);
+
+            if (imBogenmass == false)
+                c.phi = Math.toDegrees(c.phi);
+        }
 
 
-        } else if (imBogenmass == true) {
-
+        if (imBogenmass == true) {
+            if (c.istBogenmass == false) {
+                c.phi = phi(c);
+                c.istBogenmass = true;
+            }
+            System.out.println(((c.betrag == 1.0) ? "" : c.betrag) + "e^j(" + c.phi + ") (Bogenmass)");
+        } else if (imBogenmass == false) {
+            System.out.println(((c.betrag == 1.0) ? "" : c.betrag) + "e^j (" + c.phi + ") (Gradmass)");
         }
     }
 
@@ -51,7 +69,7 @@ public class KomplexeZahlOperationen {
     }
 
     public static double abs(KomplexeZahl c) {
-        return Math.hypot(c.realteil, c.imaginaerteil);
+        return Math.sqrt(Math.hypot(c.realteil, c.imaginaerteil));
     }
 
     public static double phi(KomplexeZahl c) {

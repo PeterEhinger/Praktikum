@@ -1,25 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7318b4e3-f586-42d1-8b52-e36559a2df93" name="Default Changelist" comment="01.02.2020">
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/container/DoubleContainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum05/BinaereSuche.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum05/Matrix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum05/Sortieren.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/SLLInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/SLLIntOperation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum03/Quader.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum03/Quader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Dreiecke.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Dreiecke.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Felder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Felder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Pi.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Pi.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Reihe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum04/Reihe.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum03/Quader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum03/Quader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Dreiecke.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Dreiecke.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Felder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Felder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Pi.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Pi.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Reihe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum04/Reihe.java" afterDir="false" />
+    <list default="true" id="7318b4e3-f586-42d1-8b52-e36559a2df93" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum06/KomplexeZahl.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum06/KomplexeZahl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum06/SLLIntOperation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Praktikum/edu/unibw/se/gdp/praktikum06/SLLIntOperation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/SLLIntOperation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/SLLIntOperation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,7 +179,7 @@
       <workItem from="1579466428467" duration="74926000" />
       <workItem from="1580673018981" duration="4002000" />
       <workItem from="1580735089147" duration="8081000" />
-      <workItem from="1581067021314" duration="15309000" />
+      <workItem from="1581067021314" duration="21407000" />
     </task>
     <task id="LOCAL-00001" summary="Test">
       <created>1580153782152</created>
@@ -234,7 +223,14 @@
       <option name="project" value="LOCAL" />
       <updated>1580564306006</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="01.02.2020">
+      <created>1581959467931</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1581959467932</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -328,25 +324,26 @@
     <state x="-1190" y="125" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1580672545453" />
     <state x="-1191" y="125" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580670833582" />
     <state x="735" y="337" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/60.23.1860.1177@60.23.1860.1177" timestamp="1580738735886" />
-    <state x="-1351" y="15" key="CommitChangelistDialog2" timestamp="1581959270433">
+    <state x="-1351" y="15" key="CommitChangelistDialog2" timestamp="1581959467655">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
-    <state x="-1351" y="15" key="CommitChangelistDialog2/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581959270433" />
+    <state x="-1351" y="15" key="CommitChangelistDialog2/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581959467655" />
     <state x="573" y="214" key="CommitChangelistDialog2/60.23.1860.1177@60.23.1860.1177" timestamp="1580736577852" />
     <state x="574" y="214" key="CommitChangelistDialog2/62.23.1858.1177@62.23.1858.1177" timestamp="1580564305743" />
-    <state width="446" height="466" key="DebuggerActiveHint" timestamp="1580562377473">
-      <screen x="62" y="23" width="1858" height="1177" />
+    <state width="448" height="419" key="DebuggerActiveHint" timestamp="1581962316529">
+      <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
+    <state width="448" height="419" key="DebuggerActiveHint/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581962316529" />
     <state width="446" height="466" key="DebuggerActiveHint/62.23.1858.1177@62.23.1858.1177" timestamp="1580562377473" />
     <state x="856" y="512" key="Github.ShareDialog" timestamp="1580155897904">
       <screen x="62" y="23" width="1858" height="1177" />
     </state>
     <state x="856" y="512" key="Github.ShareDialog/62.23.1858.1177@62.23.1858.1177" timestamp="1580155897904" />
-    <state width="1676" height="161" key="GridCell.Tab.0.bottom" timestamp="1581959270473">
+    <state width="1676" height="295" key="GridCell.Tab.0.bottom" timestamp="1581969404706">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1588" height="250" key="GridCell.Tab.0.bottom/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058116" />
-    <state width="1676" height="161" key="GridCell.Tab.0.bottom/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581959270473" />
+    <state width="1676" height="295" key="GridCell.Tab.0.bottom/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404706" />
     <state width="1676" height="161" key="GridCell.Tab.0.bottom/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1581955019418" />
     <state width="1816" height="161" key="GridCell.Tab.0.bottom/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580676020871" />
     <state width="1676" height="366" key="GridCell.Tab.0.bottom/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316090" />
@@ -354,11 +351,11 @@
     <state width="1676" height="366" key="GridCell.Tab.0.bottom/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707658" />
     <state width="1588" height="373" key="GridCell.Tab.0.bottom/64.23.1856.1177@64.23.1856.1177" timestamp="1578921814983" />
     <state width="1329" height="230" key="GridCell.Tab.0.bottom/69.23.1851.1177@69.23.1851.1177" timestamp="1578832462463" />
-    <state width="1676" height="161" key="GridCell.Tab.0.center" timestamp="1581959270472">
+    <state width="1676" height="295" key="GridCell.Tab.0.center" timestamp="1581969404704">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1588" height="250" key="GridCell.Tab.0.center/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058115" />
-    <state width="1676" height="161" key="GridCell.Tab.0.center/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581959270472" />
+    <state width="1676" height="295" key="GridCell.Tab.0.center/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404704" />
     <state width="1676" height="161" key="GridCell.Tab.0.center/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1581955019417" />
     <state width="1816" height="161" key="GridCell.Tab.0.center/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580676020870" />
     <state width="1676" height="366" key="GridCell.Tab.0.center/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316089" />
@@ -366,11 +363,11 @@
     <state width="1676" height="366" key="GridCell.Tab.0.center/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707657" />
     <state width="1588" height="373" key="GridCell.Tab.0.center/64.23.1856.1177@64.23.1856.1177" timestamp="1578921814982" />
     <state width="1329" height="230" key="GridCell.Tab.0.center/69.23.1851.1177@69.23.1851.1177" timestamp="1578832462462" />
-    <state width="1676" height="161" key="GridCell.Tab.0.left" timestamp="1581959270472">
+    <state width="1676" height="295" key="GridCell.Tab.0.left" timestamp="1581969404704">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1588" height="250" key="GridCell.Tab.0.left/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058114" />
-    <state width="1676" height="161" key="GridCell.Tab.0.left/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581959270472" />
+    <state width="1676" height="295" key="GridCell.Tab.0.left/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404704" />
     <state width="1676" height="161" key="GridCell.Tab.0.left/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1581955019416" />
     <state width="1816" height="161" key="GridCell.Tab.0.left/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580676020870" />
     <state width="1676" height="366" key="GridCell.Tab.0.left/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316089" />
@@ -378,11 +375,11 @@
     <state width="1676" height="366" key="GridCell.Tab.0.left/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707657" />
     <state width="1588" height="373" key="GridCell.Tab.0.left/64.23.1856.1177@64.23.1856.1177" timestamp="1578921814981" />
     <state width="1329" height="230" key="GridCell.Tab.0.left/69.23.1851.1177@69.23.1851.1177" timestamp="1578832462462" />
-    <state width="1676" height="161" key="GridCell.Tab.0.right" timestamp="1581959270473">
+    <state width="1676" height="295" key="GridCell.Tab.0.right" timestamp="1581969404705">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1588" height="250" key="GridCell.Tab.0.right/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058116" />
-    <state width="1676" height="161" key="GridCell.Tab.0.right/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581959270473" />
+    <state width="1676" height="295" key="GridCell.Tab.0.right/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404705" />
     <state width="1676" height="161" key="GridCell.Tab.0.right/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1581955019417" />
     <state width="1816" height="161" key="GridCell.Tab.0.right/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580676020871" />
     <state width="1676" height="366" key="GridCell.Tab.0.right/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316090" />
@@ -390,11 +387,11 @@
     <state width="1676" height="366" key="GridCell.Tab.0.right/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707658" />
     <state width="1588" height="373" key="GridCell.Tab.0.right/64.23.1856.1177@64.23.1856.1177" timestamp="1578921814982" />
     <state width="1329" height="230" key="GridCell.Tab.0.right/69.23.1851.1177@69.23.1851.1177" timestamp="1578832462463" />
-    <state width="1676" height="295" key="GridCell.Tab.1.bottom" timestamp="1581953748043">
+    <state width="1676" height="295" key="GridCell.Tab.1.bottom" timestamp="1581969404841">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1334" height="373" key="GridCell.Tab.1.bottom/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058110" />
-    <state width="1676" height="295" key="GridCell.Tab.1.bottom/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581953748043" />
+    <state width="1676" height="295" key="GridCell.Tab.1.bottom/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404841" />
     <state width="1816" height="323" key="GridCell.Tab.1.bottom/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1580674597183" />
     <state width="1816" height="323" key="GridCell.Tab.1.bottom/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580670754055" />
     <state width="1676" height="366" key="GridCell.Tab.1.bottom/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316091" />
@@ -402,11 +399,11 @@
     <state width="1676" height="366" key="GridCell.Tab.1.bottom/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707660" />
     <state width="1588" height="373" key="GridCell.Tab.1.bottom/64.23.1856.1177@64.23.1856.1177" timestamp="1578921815193" />
     <state width="1329" height="285" key="GridCell.Tab.1.bottom/69.23.1851.1177@69.23.1851.1177" timestamp="1578767874537" />
-    <state width="1676" height="295" key="GridCell.Tab.1.center" timestamp="1581953748042">
+    <state width="1676" height="295" key="GridCell.Tab.1.center" timestamp="1581969404840">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1334" height="373" key="GridCell.Tab.1.center/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058110" />
-    <state width="1676" height="295" key="GridCell.Tab.1.center/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581953748042" />
+    <state width="1676" height="295" key="GridCell.Tab.1.center/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404840" />
     <state width="1816" height="323" key="GridCell.Tab.1.center/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1580674597182" />
     <state width="1816" height="323" key="GridCell.Tab.1.center/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580670754053" />
     <state width="1676" height="366" key="GridCell.Tab.1.center/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316091" />
@@ -414,11 +411,11 @@
     <state width="1676" height="366" key="GridCell.Tab.1.center/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707659" />
     <state width="1588" height="373" key="GridCell.Tab.1.center/64.23.1856.1177@64.23.1856.1177" timestamp="1578921815192" />
     <state width="1329" height="285" key="GridCell.Tab.1.center/69.23.1851.1177@69.23.1851.1177" timestamp="1578767874536" />
-    <state width="1676" height="295" key="GridCell.Tab.1.left" timestamp="1581953748042">
+    <state width="1676" height="295" key="GridCell.Tab.1.left" timestamp="1581969404839">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1334" height="373" key="GridCell.Tab.1.left/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058109" />
-    <state width="1676" height="295" key="GridCell.Tab.1.left/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581953748042" />
+    <state width="1676" height="295" key="GridCell.Tab.1.left/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404839" />
     <state width="1816" height="323" key="GridCell.Tab.1.left/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1580674597181" />
     <state width="1816" height="323" key="GridCell.Tab.1.left/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580670754053" />
     <state width="1676" height="366" key="GridCell.Tab.1.left/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316090" />
@@ -426,11 +423,11 @@
     <state width="1676" height="366" key="GridCell.Tab.1.left/62.23.1858.1177@62.23.1858.1177" timestamp="1581875707659" />
     <state width="1588" height="373" key="GridCell.Tab.1.left/64.23.1856.1177@64.23.1856.1177" timestamp="1578921815191" />
     <state width="1329" height="285" key="GridCell.Tab.1.left/69.23.1851.1177@69.23.1851.1177" timestamp="1578767874536" />
-    <state width="1676" height="295" key="GridCell.Tab.1.right" timestamp="1581953748043">
+    <state width="1676" height="295" key="GridCell.Tab.1.right" timestamp="1581969404840">
       <screen x="-1866" y="-157" width="1866" height="1057" />
     </state>
     <state width="1334" height="373" key="GridCell.Tab.1.right/0.23.1440.877/-1864.-157.1864.1057@0.23.1440.877" timestamp="1578933058110" />
-    <state width="1676" height="295" key="GridCell.Tab.1.right/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581953748043" />
+    <state width="1676" height="295" key="GridCell.Tab.1.right/0.23.1440.877/-1866.-157.1866.1057@-1866.-157.1866.1057" timestamp="1581969404840" />
     <state width="1816" height="323" key="GridCell.Tab.1.right/0.23.1440.877/-1868.-157.1868.1057@-1868.-157.1868.1057" timestamp="1580674597182" />
     <state width="1816" height="323" key="GridCell.Tab.1.right/0.23.1440.877/-1869.-157.1869.1057@-1869.-157.1869.1057" timestamp="1580670754054" />
     <state width="1676" height="366" key="GridCell.Tab.1.right/55.23.1865.1177@55.23.1865.1177" timestamp="1581066316091" />
@@ -552,13 +549,23 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.java</url>
           <line>35</line>
-          <option name="timeStamp" value="157" />
+          <option name="timeStamp" value="162" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/KomplexeZahlOperationen.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="164" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/edu/unibw/se/gdp/praktikum06/SLLIntOperation.java</url>
-          <line>22</line>
-          <option name="timeStamp" value="158" />
+          <line>33</line>
+          <option name="timeStamp" value="165" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

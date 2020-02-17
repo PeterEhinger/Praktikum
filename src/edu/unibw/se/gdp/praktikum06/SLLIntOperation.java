@@ -8,6 +8,7 @@ public class SLLIntOperation {
 
         System.out.println(toString(liste3));
         System.out.println(getLength(liste3));
+        System.out.println(isSorted(liste3));
     }
 
     public static String toString(SLLInt s) {
@@ -28,12 +29,13 @@ public class SLLIntOperation {
         return i;
     }
 
-    /*public static boolean isSorted (SLLInt seq) {
+    public static boolean isSorted (SLLInt seq) {
         while (seq != null) {
-            if (seq <= seq.next)
+            if (seq.value <= seq.next.value)
                 seq = seq.next;
             else
+                return false;
         }
         return true;
-    }*/
+    }
 }
