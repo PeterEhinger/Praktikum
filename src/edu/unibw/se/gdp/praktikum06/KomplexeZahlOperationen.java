@@ -40,7 +40,7 @@ public class KomplexeZahlOperationen {
             }
             System.out.println(((c.betrag == 1.0) ? "" : c.betrag) + "e^j(" + c.phi + ") (Bogenmass)");
         } else if (imBogenmass == false) {
-            System.out.println(((c.betrag == 1.0) ? "" : c.betrag) + "e^j (" + c.phi + ") (Gradmass)");
+            System.out.println(((c.betrag == 1.0) ? "" : c.betrag) + "e^j(" + c.phi + ") (Gradmass)");
         }
     }
 
@@ -69,7 +69,7 @@ public class KomplexeZahlOperationen {
     }
 
     public static double abs(KomplexeZahl c) {
-        return Math.sqrt(Math.hypot(c.realteil, c.imaginaerteil));
+        return Math.hypot(c.realteil, c.imaginaerteil);
     }
 
     public static double phi(KomplexeZahl c) {
