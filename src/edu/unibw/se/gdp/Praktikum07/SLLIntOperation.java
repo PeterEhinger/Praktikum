@@ -1,19 +1,29 @@
-package edu.unibw.se.gdp.praktikum06;
+package edu.unibw.se.gdp.Praktikum07;
 
 public class SLLIntOperation {
     public static void main(String[] args) {
-        SLLInt a = new SLLInt(8);
-        SLLInt b = new SLLInt(5, a);
-        SLLInt c = new SLLInt(10, b);
+        SLLInt a = new SLLInt(11);
+        SLLInt b = new SLLInt(0, a);
+        SLLInt c = new SLLInt(2, b);
+        SLLInt d = new SLLInt(-22, c);
+        SLLInt e = new SLLInt(2, d);
+        SLLInt f = new SLLInt(15, e);
+        SLLInt g = new SLLInt(-7, f);
+        SLLInt h = new SLLInt(9, g);
+        SLLInt i = new SLLInt(-9, h);
 
-        SLLInt[] listen = {a, b, c};
+        System.out.println(toString(removeNegative(i)));
+
+        /*SLLInt[] listen = {a, b, c, d, e, f, g, h , i};
 
         for (SLLInt liste: listen
              ) {
             System.out.println(toString(liste));
             System.out.println("->" + getLength(liste));
             System.out.println("->" + isSorted(liste));
-        }
+        }*/
+
+
     }
 
     public static String toString(SLLInt s) {
@@ -44,5 +54,14 @@ public class SLLIntOperation {
                 return false;
         }
         return true;
+    }
+
+    public static SLLInt removeNegative(SLLInt seq) {
+        if (seq.next == null)
+            return seq;
+        else if (seq.value < 0)
+            seq = removeNegative(seq.next);
+
+        return removeNegative(seq.next);
     }
 }
