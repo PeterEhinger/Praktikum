@@ -12,7 +12,11 @@ public class SLLIntOperation {
         SLLInt h = new SLLInt(9, g);
         SLLInt i = new SLLInt(-9, h);
 
-        System.out.println(toString(removeNegative(i)));
+
+        //System.out.println(toString(removeNegative(i)));
+        //System.out.println(toString(removePositiv(i)));
+        System.out.println(toString(copyWithoutNegative(i)));
+        System.out.println(toString(copyWithoutPositive(i)));
 
         /*SLLInt[] listen = {a, b, c, d, e, f, g, h , i};
 
@@ -57,11 +61,44 @@ public class SLLIntOperation {
     }
 
     public static SLLInt removeNegative(SLLInt seq) {
-        if (seq.next == null)
+        if (seq == null)
+            return null;
+        else if (seq.value < 0) {
+            return removeNegative(seq.next);
+        } else {
+            seq.next = removeNegative(seq.next);
             return seq;
-        else if (seq.value < 0)
-            seq = removeNegative(seq.next);
+        }
+    }
 
-        return removeNegative(seq.next);
+    public static SLLInt removePositiv(SLLInt seq) {
+        if (seq == null)
+            return null;
+        else if (seq.value > 0) {
+            return removePositiv(seq.next);
+        } else {
+            seq.next = removePositiv(seq.next);
+            return seq;
+        }
+    }
+
+    public static SLLInt copyWithoutNegative(SLLInt seq) {
+        if (seq == null)
+            return null;
+        else if (seq.value < 0) {
+            return copyWithoutNegative(seq.next);
+        } else {
+            return new SLLInt(seq.value, copyWithoutNegative(seq.next));
+        }
+    }
+
+    public static SLLInt copyWithoutPositive(SLLInt seq) {
+        if (seq == null)
+            return null;
+        else if (seq.value > 0) {
+            return copyWithoutPositive(seq.next);
+        } else {
+            return new SLLInt(seq.value, copyWithoutPositive(seq.next));
+        }
     }
 }
