@@ -1,4 +1,4 @@
-package edu.unibw.se.gdp.Praktikum07;
+package edu.unibw.se.gdp.praktikum07;
 
 public class SeqByDLLOperation {
     public static void main(String[] args) {
@@ -17,6 +17,8 @@ public class SeqByDLLOperation {
             int tmp = seq.head.value;
             seq.head.value = seq.tail.value;
             seq.head.value = tmp;
+
+
         }
 
         return seq;

@@ -1,4 +1,4 @@
-package edu.unibw.se.gdp.Praktikum07;
+package edu.unibw.se.gdp.praktikum07;
 
 public class SLLInt {
     public int value;
