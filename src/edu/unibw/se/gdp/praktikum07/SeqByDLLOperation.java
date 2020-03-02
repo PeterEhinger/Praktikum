@@ -70,10 +70,8 @@ public class SeqByDLLOperation {
             DLLInt current = seq.head;
             while (current != null) {
                 result = result + current.value;
-
                 if (current.next != null)
                     result += ":";
-
                 current = current.next;
             }
             result += ")";
