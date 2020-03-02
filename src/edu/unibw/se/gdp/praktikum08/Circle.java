@@ -4,7 +4,7 @@ import edu.unibw.se.gdp.graphics.Position;
 
 import java.awt.*;
 
-public class Circle {
+public abstract class Circle{
     final protected Position center;
     private Color color;
     protected double radius;
@@ -20,4 +20,6 @@ public class Circle {
         graphics.fillOval((int)(center.getX() - radius), (int)(center.getY() - radius),
                 (int)(2.0 * radius), (int)(2.0 * radius));
     }
+
+    public abstract void move();
 }

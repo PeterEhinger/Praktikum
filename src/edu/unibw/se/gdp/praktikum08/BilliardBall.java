@@ -15,6 +15,12 @@ public class BilliardBall extends Circle {
         this.moveY = moveY;
     }
 
+    public BilliardBall(double x, double y, double radius, Color color) {
+        super(x, y, radius, color);
+
+        new BilliardBall(x, y, radius, color, moveX, moveY);
+    }
+
     public void move() {
         center.setX(center.getX() + moveX);
         center.setY(center.getY() + moveY);

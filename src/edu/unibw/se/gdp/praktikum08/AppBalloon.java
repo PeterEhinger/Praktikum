@@ -16,6 +16,7 @@ public class AppBalloon {
             balloon.drawOn(graphics);
             panel.showGraphics();
             balloon.move();
+            balloon.move();
             GraphicsPanel.sleep(5); // pause the animation 5 millisecond
         }
     }

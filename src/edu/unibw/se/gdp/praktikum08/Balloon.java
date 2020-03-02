@@ -5,7 +5,7 @@ import edu.unibw.se.gdp.graphics.Position;
 
 import java.awt.*;
 
-public class Balloon extends Circle {
+public class Balloon extends BilliardBall {
     private double moveX = 5.0;
     private double moveY = 5.0;
 
